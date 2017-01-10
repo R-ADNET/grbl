@@ -30,11 +30,15 @@
 // Only define the DEFAULT_XXX with where to find the corresponding default_XXX.h file.
 // Don't #define defaults_h here, let the selected file do it. Prevents including more than one.
 
+#ifdef DEFAULTS_laser
+  // Grbl generic default settings. Should work across different machines.
+  #include "defaults/defaults_laser.h"
+#endif
+
 #ifdef DEFAULTS_GENERIC
   // Grbl generic default settings. Should work across different machines.
   #include "defaults/defaults_generic.h"
 #endif
-
 #ifdef DEFAULTS_SHERLINE_5400
   // Description: Sherline 5400 mill with three NEMA 23 Keling  KL23H256-21-8B 185 oz-in stepper motors,
   // driven by three Pololu A4988 stepper drivers with a 30V, 6A power supply at 1.5A per winding.
