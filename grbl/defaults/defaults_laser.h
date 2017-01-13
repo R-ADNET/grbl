@@ -31,8 +31,8 @@
   #define DEFAULT_X_STEPS_PER_MM (200*32)/(20*2) //(microstepmoteur*microstepdriver) / (nombres de dent* intervalle dent)
   #define DEFAULT_Y_STEPS_PER_MM (200*32)/(20*2)
   #define DEFAULT_Z_STEPS_PER_MM 250.0
-  #define DEFAULT_X_MAX_RATE 8000.0 // mm/min
-  #define DEFAULT_Y_MAX_RATE 8000.0 // mm/min
+  #define DEFAULT_X_MAX_RATE 10000.0 // mm/min
+  #define DEFAULT_Y_MAX_RATE 10000.0 // mm/min
   #define DEFAULT_Z_MAX_RATE 500.0 // mm/min
   #define DEFAULT_X_ACCELERATION (400.0*60*60) // 400*60*60 mm/min^2 = 400 mm/sec^2
   #define DEFAULT_Y_ACCELERATION (400.0*60*60) // 400*60*60 mm/min^2 = 400 mm/sec^2

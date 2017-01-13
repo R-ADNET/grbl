@@ -1,6 +1,6 @@
 /*
   config.h - compile time configuration
-  Part of Grbl
+  Part of Grbl 
 
   Copyright (c) 2012-2015 Sungeun K. Jeon
   Copyright (c) 2009-2011 Simen Svale Skogsrud
